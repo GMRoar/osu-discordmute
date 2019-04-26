@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="osu-discordmute.exe" version="1.0.0.0" publicKeyToken="e79b40b1d9ca9004" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="osu-discordmute" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="osu-discordmute.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="osu-discordmute.exe" size="7640">
+      <assemblyIdentity name="osu-discordmute" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yuPVLYsEnovkQtuqRt664HS0fKm7m6zIhen/UEZ/ODo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="osu-discordmute.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-52QODLM\Nate" issuerKeyHash="61d69e1580b3ce5cd8eb74705252210ac1b66401" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+dzxr2toqTH0Ffftzne3189mu59KgneOw0HrRQ+ZB/E=</DigestValue></Reference></SignedInfo><SignatureValue>CoNgrSiuVYXgKN5yS36tHI1Us4gxVYzyLsp9T8pYGtCyphakAJPbQ6wkNMg2LMtZ05bfNNg9FOLWZWTyd1f/y9oryC7jJBD3DQ9UOZ625uIUMUw3sVaPOOWb+Vitnow4JhdWhre4P4Qa3hObvZy4v3uDewtKuUbKHFdBXDplQpo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rFCKY4EVNOXJv8+AWiS2T5uZQ137AS1cnkmsHi0gyhFObZqMiirxI8x/qm/FkH9Dk+I4Xioktxh9gGu057F+clJLoUp0BwZyYD6QnnkPtUX9GOrrhmib1cMbHo6VA8MDuFlYhKThaDmXD6JeAgMHGw/yq0PgrReB/rHi+MB5CE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f107990f45eb41c38e77824a9fbb66cfd7b777ceedf715f431a9686baff1dcf9" Description="" Url=""><as:assemblyIdentity name="osu-discordmute.exe" version="1.0.0.0" publicKeyToken="e79b40b1d9ca9004" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-52QODLM\Nate</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jLUaqcjnmoimgHppAFAxBhH7VYdpomWywphpscPp43E=</DigestValue></Reference></SignedInfo><SignatureValue>CHniGZrLV2/lTJ7swBP/y9bsE/3MDpEIzsdFOjfwudppYWYU1ikIC4Wzc2yZddoJWoGr7jMZ1CaMI1uP+eSxCk/EJHxxhmEBOMSR+yD1Lwr7W1ouClYxgOafG1U3wQxs5o5LI2tCXCNKZCFMfDbccDEqbDIHRKXc0smIfqfEcj4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rFCKY4EVNOXJv8+AWiS2T5uZQ137AS1cnkmsHi0gyhFObZqMiirxI8x/qm/FkH9Dk+I4Xioktxh9gGu057F+clJLoUp0BwZyYD6QnnkPtUX9GOrrhmib1cMbHo6VA8MDuFlYhKThaDmXD6JeAgMHGw/yq0PgrReB/rHi+MB5CE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQbxeXGnhamYJF9vpuYeedpTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADUAMgBRAE8ARABMAE0AXABOAGEAdABlMB4XDTE5MDQyNTA4NDAwOFoXDTIwMDQyNDE0NDAwOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQA1ADIAUQBPAEQATABNAFwATgBhAHQAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArFCKY4EVNOXJv8+AWiS2T5uZQ137AS1cnkmsHi0gyhFObZqMiirxI8x/qm/FkH9Dk+I4Xioktxh9gGu057F+clJLoUp0BwZyYD6QnnkPtUX9GOrrhmib1cMbHo6VA8MDuFlYhKThaDmXD6JeAgMHGw/yq0PgrReB/rHi+MB5CE0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBfYk7KsQlWqR2FAnhjT0gyCiAUS72JdVAnptiu/vCHrYHpBFaXSsetIeqHYOKsOg8eyMZ1nsLhgDrWCOOLo0xgGy+HYgqb7p/bg4/bQVXgwav8R8bDfF8L6wgC8EQGkeQpxiX/aKUYO+HAuTvRJWNaM11cfRFp7TMcPJ4Qgxdaww==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

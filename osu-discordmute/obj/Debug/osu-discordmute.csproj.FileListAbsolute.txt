@@ -1,0 +1,16 @@
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.csprojAssemblyReference.cache
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu_discordmute.Properties.Resources.resources
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.csproj.GenerateResource.cache
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.csproj.CoreCompileInputs.cache
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\osu-discordmute.exe.config
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\osu-discordmute.exe
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\osu-discordmute.pdb
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.exe
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.pdb
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\osu-discordmute.exe.manifest
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\osu-discordmute.application
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.exe.manifest
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.application
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\WindowsInput.dll
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\bin\Debug\WindowsInput.xml
+C:\Users\natha\source\repos\osu-discordmute\osu-discordmute\obj\Debug\osu-discordmute.csproj.CopyComplete
